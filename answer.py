@@ -6,6 +6,7 @@ from flask import Flask
 from flask import request
 from flask import jsonify
 import os
+import torch
 
 
 #Create Flask App
