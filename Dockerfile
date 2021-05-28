@@ -1,4 +1,4 @@
-From pytorch/pytorch
+FROM pytorch/pytorch
 FROM tensorflow/tensorflow
 
 COPY requirements.txt . 
