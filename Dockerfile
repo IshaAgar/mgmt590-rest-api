@@ -1,6 +1,8 @@
 FROM tensorflow/tensorflow
 
-COPY requirements.txt . 
+FROM pytorch/pytorch
+
+ADD requirements.txt . 
 
 RUN pip install -r requirements.txt 
 
